@@ -1,0 +1,27 @@
+package com.vinncorp.demo.soapcoursemanagement.endpoint;
+
+
+//import com.vinncorp.demo.soapcoursemanagement.soap.GetStudentRequest;
+//import com.vinncorp.demo.soapcoursemanagement.soap.GetStudentResponse;
+import org.springframework.ws.server.endpoint.annotation.Endpoint;
+import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
+import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
+import org.springframework.ws.server.endpoint.annotation.RequestPayload;
+
+@Endpoint
+
+public class StudentEndpoint {
+
+    private static final String NAMESPACE_URI = "http://example.com/student";
+
+//    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getStudentRequest")
+//    @ResponsePayload
+//    public GetStudentResponse getStudent(@RequestPayload GetStudentRequest request) {
+//
+//        GetStudentResponse response = new GetStudentResponse();
+//        response.setName("Sana Khalid");
+//        response.setAge(22);
+//
+//        return response;
+//    }
+}
